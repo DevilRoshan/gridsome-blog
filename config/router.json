@@ -1,0 +1,85 @@
+[
+  {
+    "path": "/",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-star-off",
+      "title": "最新动态"
+    },
+    "children": [
+      {
+        "path": "main",
+        "meta": {
+          "title": "最新动态"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/social",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-mobile-phone",
+      "title": "社交圈"
+    }
+  },
+  {
+    "path": "/blog",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-edit-outline",
+      "title": "博客列表"
+    },
+    "children": [
+      {
+        "path": "main",
+        "meta": {
+          "title": "博客列表"
+        }
+      },
+      {
+        "path": "add",
+        "meta": {
+          "title": "发表博客"
+        }
+      },
+      {
+        "path": "edit/:id",
+        "meta": {
+          "title": "编辑博客"
+        }
+      },
+      {
+        "path": "details/:id",
+        "meta": {
+          "title": "博客详情"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/project",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-service",
+      "title": "开源项目"
+    }
+  },
+  {
+    "path": "/helper",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-printer",
+      "title": "使用帮助",
+      "mini": true
+    }
+  },
+  {
+    "path": "/readme",
+    "meta": {
+      "type": "user",
+      "icon": "el-icon-document",
+      "title": "README.md"
+    }
+  }
+]
